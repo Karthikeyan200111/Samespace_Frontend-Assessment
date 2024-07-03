@@ -165,7 +165,7 @@ const Player = ({ name, author, song, card, id ,accent}) => {
   console.log(error);
 
   return (
-    <div className=" text-white flex  lg:w-1/3 md:w-1/2 w-full flex-col md:p-1 p-4 gap-3 rounded-lg shadow-lg " style={{ backgroundColor: accent || 'black' }}>
+    <div className=" text-white flex  lg:w-1/3 md:w-1/2 w-full flex-col md:p-1 p-4 gap-3 rounded-lg  " style={{ backgroundColor: accent || 'black' }}>
       <div>
         <h1 className="md:text-2xl font-bold">{newname}</h1>
         <p className="text-gray-400">{newauthor}</p>
